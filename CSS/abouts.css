@@ -1,0 +1,146 @@
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    }
+    
+    .navbar a {
+    float: left;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    }
+    
+    .navbar a:hover {
+    background-color: #000;
+    }
+    
+    .active {
+    background-color: #31D6C8;
+    }
+    
+    @media screen and (max-width: 500px) {
+    .navbar a {
+    float: none;
+    display: block;
+    }
+    }
+
+    .v22_1190 {
+        width: 700px;
+        height: 48px;
+        opacity: 1;
+        position: absolute;
+        top: 40px;
+        left: 1049px;
+        overflow: hidden;
+      }
+      .topnav {
+        width: 441px;
+        top: 8PX;
+        opacity: 1;
+        position: absolute;
+        left: 200px;
+        overflow: hidden;
+      }
+      .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+      .topnav a.active {
+      background-color: #31D6C8;
+      color: rgb(0, 0, 0);
+      }
+      .topnav a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 28px;
+      text-decoration: none;
+      font-size: 17px;
+      }
+      .v22_1196 {
+        width: 48px;
+        height: 48px;
+        background: rgba(217,217,217,1);
+        opacity: 1;
+        position: absolute;
+        top: 0px;
+        left: 650px;
+        border-radius: 50%;
+      }
+
+    .our-team{
+        padding: 45px 45px 45px 45px;
+        background: #fff;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .our-team .pic{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        padding: 10px;
+        margin-bottom: 25px;
+        transition: all 0.5s ease 0s;
+    }
+    .our-team:hover .pic{
+        background: #17bebb;
+        border-radius: 50%;
+    }
+    .pic img{
+        width: 100%;
+        height: 250px;
+        border-radius: 50%;
+    }
+    .our-team .title{
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        color: #2e282a;
+        text-transform: uppercase;
+        margin: 0 0 7px 0;
+    }
+    .our-team .post{
+        display: block;
+        font-size: 15px;
+        color: #17bebb;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+    .our-team .social{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .our-team .social li{
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .our-team .social li a{
+        display: block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 50%;
+        font-size: 15px;
+        color: #17bebb;
+        border: 1px solid #17bebb;
+        transition: all 0.5s ease 0s;
+    }
+    .our-team:hover .social li a{
+        background: #17bebb;
+        color: #fff;
+    }
+    @media only screen and (max-width: 990px){
+        .our-team{ margin-bottom: 30px; }
+    }
+    .bg1{
+        background-image: url("../pics/p4.jpg");
+        background-size: cover;
+    }
+    a.{
+        
+    }
